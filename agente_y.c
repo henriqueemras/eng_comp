@@ -2,16 +2,15 @@
 
 int vet[100] = {};
 void rotatepos(int vetor[], int a, int b, int c);
+void rotateval(int vetor[], int a, int b, int c);
+void flip(int vetor[], int a, int b);
+void roll(int vetor[], int p1, int p2);
 
 int main(void){
 
     for(int i = 0; i < 99; i++){
         vet[i]= i;
     }
-
-    roll(vet, 0, 10);
-    printf("%d, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d,", vet[0],vet[1],vet[2], vet[3], vet[4], vet[5], vet[6], vet[7], vet[8], vet[9], vet[10]);
-    return 0;
 }
 void rotatepos(int vetor[], int a, int b, int c){
     
