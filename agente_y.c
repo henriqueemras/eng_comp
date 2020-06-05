@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int vet[100] = {};
+int vet[100] = {0000};
 
 int main(void){
     for(int i = 0; i < 99; i++){
